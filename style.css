@@ -1,0 +1,37 @@
+img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: white;
+    
+}
+
+.links .link{
+    color: white;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 20%);
+}
